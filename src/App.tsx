@@ -28,6 +28,7 @@ function App() {
     if (filter === 'Completed') {
         tasksForTodolist = tasks.filter(t => t.isDone === true);
     }
+
     if (filter === 'Active') {
         tasksForTodolist = tasks.filter(t => t.isDone === false);
     }
