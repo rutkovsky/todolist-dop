@@ -6,19 +6,6 @@ import {v1} from 'uuid';
 
 // Hi guys!
 //1.Let`s wrap up our bunch  of filters in a function.
-//How can we do this? We can wrap all our goodies into a new function:
-//     const filteredTasks=()=>{
-//          let tasksForTodolist = tasks;
-//
-//          if (filter === "active") {
-//          return   tasksForTodolist = tasks.filter(t => !t.isDone);
-//          }
-//          if (filter === "completed") {
-//            return  tasksForTodolist = tasks.filter(t => t.isDone);
-//          }
-//          return tasksForTodolist
-//     }
-
 //2.Let`s replace our if`s with  switch.
 
 
